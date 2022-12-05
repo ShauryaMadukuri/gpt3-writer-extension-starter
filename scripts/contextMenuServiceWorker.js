@@ -74,7 +74,6 @@ const generateCompletionAction = async (info) => {
 
   `
   const secondPromptCompletion = await generate(`${secondPrompt}`);
-  
   // Send the output when we're all done
   sendMessage(secondPromptCompletion.text);
 
